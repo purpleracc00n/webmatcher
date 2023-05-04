@@ -6,6 +6,6 @@ A tool to find valid subdomains for a given domain which resolve to the provided
 ./webmatcher.py [scopefile] [domain]
 ```
 The [scopefile] can contain CIDRs, IP Ranges and individual IPs.
-You can also provide a list of known subdomains with -s or a subdomain wordlist to perform DNS grinding.
+You can also provide a list of known subdomains with -s or a subdomain wordlist with -w to perform DNS grinding.
 
 Uses amass and theHarvester under the hood.
